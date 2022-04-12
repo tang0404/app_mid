@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SegmentedControlTab from "react-native-segmented-control-tab";
-import { Divider, Box, Center, ScrollView, Text, useColorMode } from "native-base";
+import { Image, Box, Center, ScrollView, Text, useColorMode } from "native-base";
 import CookiesList from "../components/CookiesList";
 import cookiesData from "../json/cookiesList.json";
 
@@ -49,7 +49,14 @@ const SegmentedContent = () => {
         return (
             <Center 
             bg={colorMode == "light" ? "#f8f8f8" : "#2E2015"}  flex={1}>
-                <Text>another page</Text>
+                   <Image
+                    width= "150"
+                    height= "135"
+                    source={{uri: "https://github.com/pinyi0911/AppMid/blob/master/img/%E8%9B%8B%E7%B3%95%E7%8B%97.png?raw=true"}}
+                    alt="cakeDog"
+                    ml={15}
+                /> 
+                <Text fontSize={21} fontWeight="bold" color="#CAC6C4">尚未開放</Text>
             </Center>
         );
     }    

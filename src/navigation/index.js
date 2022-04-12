@@ -12,8 +12,8 @@ import { StatusBar } from 'native-base';
 import MainScreen from '../screens/MainScreen';
 import DetailScreen from '../screens/DetailScreen';
 import SerialNumScreen from '../screens/SerialNumScreen';
-import MyBookScreen from '../screens/MybookScreen';
 import CookiesListScreen from '../screens/CookiesListScreen';
+import TeamListScreen from '../screens/TeamListScreen';
 
 import {
   createDrawerNavigator,
@@ -35,7 +35,7 @@ const { colorMode } = useColorMode();
           colorMode == "light" ? "dark-content" : "light-content"
         }
         backgroundColor={
-          colorMode == "light" ? "white" : "black"
+          colorMode == "light" ? "white" : "#3F2B1C"
         }
       />
       <MyDrawer />
@@ -56,24 +56,60 @@ const CustomDrawerContent = (props) => {
         alt='albumImage'
       />
       <DrawerItemList {...props} />
-      <Divider my="2"/>
-      {/* <DrawerItem 
-        label="Help"
+      <DrawerItem 
+        label="最新餅乾隊伍"
         activeBackgroundColor={"#000"}
-        activeTintColor={"#000"}
+        activeTintColor={"#fff"}
         inactiveTintColor={"#000"}
-        labelStyle={ {fontSize: 15, fontWeight: '400'} }
-        icon={({ color }) => (
-          <MaterialCommunityIcons name="account-question" color="#000" size={26} />
-        )}
-        onPress={()=>alert('Need Help ...')}
+        labelStyle={ {
+        fontSize: 15, 
+        fontWeight: '700',
+        marginLeft:15,
+        color:colorMode=='light'?"#2E2015":'#f8f8f8',
+      } }
+        onPress={()=>alert('還未開放喔')}
+      />
+        <DrawerItem 
         
-      /> */}
+        label="王國競技場隊伍"
+        activeBackgroundColor={"#000"}
+        activeTintColor={"#fff"}
+        inactiveTintColor={"#000"}
+        labelStyle={ {
+        fontSize: 15, 
+        fontWeight: '700',
+        marginLeft:15,
+        color:colorMode=='light'?"#2E2015":'#f8f8f8',
+      } }
+        onPress={()=>alert('還未開放喔')}
+      />
+      <DrawerItem 
+        
+        label="守護之戰隊伍"
+        activeBackgroundColor={"#000"}
+        activeTintColor={"#fff"}
+        inactiveTintColor={"#000"}
+        labelStyle={ {
+        fontSize: 15, 
+        fontWeight: '700',
+        marginLeft:15,
+        color:colorMode=='light'?"#2E2015":'#f8f8f8',
+      } }
+        onPress={()=>alert('還未開放喔')}
+      />
+      {/* <Text
+      color={colorMode == "light" ? "#DADADA" : "#f8f8f8"} ml="5"
+      fontSize="12"
+      >設定</Text> */}
+      <Center>
+      <Divider my="2" w="300" />
+      </Center>
       
       
-      <HStack alignItems="center" ml="30" fontWeight="bold">
+      
+      <HStack alignItems="center"  fontWeight="bold">
       <Text 
-      bold fontSize="15" color={colorMode == "light" ? "#2E2015" : "#f8f8f8"}
+      bold fontSize="15" color={colorMode == "light" ? "#2E2015" : "#f8f8f8"} ml="33"
       >{colorMode == "light" ? "日間模式" : "夜間模式"}</Text>
        <Switch
                   // name="light Mode"
@@ -145,6 +181,17 @@ const MyDrawer = () => {
         }}
       />
     
+      <Drawer.Screen 
+        name="TeamList" 
+        component={TeamStack} 
+        options={{
+          
+          headerShown: false,
+          drawerLabel: "公會隊伍",
+
+        }}
+      />
+
       
       
     </Drawer.Navigator>
@@ -173,7 +220,48 @@ const SerialStack = ({navigation}) => {
           },
           headerTitleStyle: {
             fontWeight: '700',
-            fontSize: 15,
+            fontSize: 17,
+            // marginLeft:20,
+            color:colorMode=='light'?"#2E2015":"#f8f8f8"
+          },
+          // headerShadowVisible: false,//去除陰影
+
+          headerLeft: () => (
+            <Box mr="3" >
+            <MaterialCommunityIcons 
+            name="menu" color={colorMode=='light'?"#2E2015":"#FFC764"} size={24} 
+            onPress={()=>navigation.openDrawer()}
+            />
+            </Box>
+          ), // 漢堡選單
+        }}
+      />
+    </Stack.Navigator>
+  );
+}
+
+const TeamStack = ({navigation}) => {
+
+  const { colorMode } = useColorMode();
+
+  return (
+    <Stack.Navigator
+      // screenOptions={{
+      //   headerShown: false
+      // }}
+    >
+      
+<Stack.Screen
+        name="TeamListPage"
+        component={TeamListScreen}
+        options={{
+          title: "公會隊伍推薦",
+          headerStyle: {
+            backgroundColor: colorMode=='light'?"#f8f8f8":"#2E2015",
+          },
+          headerTitleStyle: {
+            fontWeight: '700',
+            fontSize: 17,
             // marginLeft:20,
             color:colorMode=='light'?"#2E2015":"#f8f8f8"
           },
@@ -214,7 +302,7 @@ const CookiesStack = ({navigation}) => {
           },
           headerTitleStyle: {
             fontWeight: '700',
-            fontSize: 15,
+            fontSize: 17,
             // marginLeft:20,
             color:colorMode=='light'?"#2E2015":"#f8f8f8"
           },

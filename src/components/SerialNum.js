@@ -19,7 +19,6 @@ const SerialNum = ({navigation}) => {
     alt="序號兌換"
     h="92"
     w="306"
-    
     />
     </Pressable>
     </Center>

@@ -12,6 +12,7 @@ const CookiesList = ({ list, navigation }) => {
       data={list}
       renderItem={renderItem}
       keyExtractor={item => item.title}
+      showsHorizontalScrollIndicator={false}
     />    
   ); 
 
