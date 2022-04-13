@@ -49,14 +49,22 @@ const SegmentedContent = () => {
         return (
             <Center 
             bg={colorMode == "light" ? "#f8f8f8" : "#2E2015"}  flex={1}>
-                   <Image
+            {colorMode == "light" ?
+                (<Image
                     width= "150"
                     height= "135"
                     source={{uri: "https://github.com/pinyi0911/AppMid/blob/master/img/%E8%9B%8B%E7%B3%95%E7%8B%97.png?raw=true"}}
                     alt="cakeDog"
                     ml={15}
-                /> 
-                <Text fontSize={21} fontWeight="bold" color="#CAC6C4">尚未開放</Text>
+                /> ):
+                (<Image
+                    width= "150"
+                    height= "135"
+                    source={{uri: "https://github.com/pinyi0911/AppMid/blob/master/img/%E8%9B%8B%E7%B3%95%E7%8B%97_%E5%92%96.png?raw=true"}}
+                    alt="cakeDog_Dark"
+                    ml={15}
+                /> )}
+                <Text fontSize={21} fontWeight="bold" color={colorMode == "light" ?"#CAC6C4":"#564334"}>尚未開放</Text>
             </Center>
         );
     }    
