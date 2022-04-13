@@ -4,8 +4,7 @@ import TeamData from "../json/teamList.json";
 import TeamList from "../components/TeamList";
 
 const TeamListScreen = ({ navigation }) => {
-const { colorMode } = useColorMode();
- 
+    const { colorMode } = useColorMode();
     return (
         <ScrollView style={{flex: 1,backgroundColor:colorMode == "light" ? "#f8f8f8" : "#2E2015"}}>
             <Center  mb={30} >
@@ -40,7 +39,6 @@ const { colorMode } = useColorMode();
                     />
                 </Box>
             </Center>
-        
         </ScrollView>
     );
 }
