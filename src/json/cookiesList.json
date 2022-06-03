@@ -1,52 +1,95 @@
-
+[
     {
-        "title1": "上古／傳奇",
-        "data1": [
+        "title": "上古／傳奇",
+        "horizontal": true,
+        "data": [
            {
-              
               "name": "純香草",
-              "image": "https://github.com/pinyi0911/AppMid/blob/master/img/btn_cookie.jpg?raw=true"
+              "image": "https://github.com/pinyi0911/AppMid/blob/master/img/btn_cookie.jpg?raw=true",
+              "fileImage": "",
+              "skillName": "愛與和平",
+              "CDtime": 19,
+              "equipment": "",
+              "recommend": "",
+
            },
-           {
-              
+           {              
             "name": "海妖精",
-            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Mask%20group.jpg?raw=true"
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Mask%20group.jpg?raw=true",
+            "fileImage": "",
+            "skillName": "",
+            "CDtime": ,
+            "equipment": "",
+            "recommend": "",
            },
-           {
-              
+           {             
             "name": "冰霜女王",
-            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2035.jpg?raw=true"
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2035.jpg?raw=true",
+            "fileImage": "",
+              "skillName": "",
+              "CDtime": ,
+              "equipment": "",
+              "recommend": "",
            }
-        ],
-        "title2": "超級稀有",
-        "data2": [
+        ]},
+        {
+        "title": "超級稀有",
+        "horizontal": true,
+        "data": [
             {
                 "name": "黑糖",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2040.jpg?raw=true"
+                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2040.jpg?raw=true",
+                "fileImage": "",
+              "skillName": "",
+              "CDtime": ,
+              "equipment": "",
+              "recommend": "",
             },
             {
                 "name": "黑巧克力",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2041.jpg?raw=true"
+                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2041.jpg?raw=true",
+                "fileImage": "",
+              "skillName": "",
+              "CDtime": ,
+              "equipment": "",
+              "recommend": "",
             },
             {
                 "name": "閃電泡芙",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2049.jpg?raw=true"
-            }],
-        "data3": [
+                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2049.jpg?raw=true",
+                "fileImage": "",
+              "skillName": "",
+              "CDtime": ,
+              "equipment": "",
+              "recommend": "",
+            },
             {
                 "name": "棉花",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2039.jpg?raw=true"
+                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2039.jpg?raw=true","fileImage": "",
+                "skillName": "",
+                "CDtime": ,
+                "equipment": "",
+                "recommend": "",
                 
             },
             {
                 "name": "泡芙",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2048.jpg?raw=true"
+                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2048.jpg?raw=true",
+                "fileImage": "",
+              "skillName": "",
+              "CDtime": ,
+              "equipment": "",
+              "recommend": "",
             },
             {
                 "name": "雪酪鯊魚",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2044.jpg?raw=true"
-            }],
-        "data4": [
+                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2044.jpg?raw=true",
+                "fileImage": "",
+              "skillName": "",
+              "CDtime": ,
+              "equipment": "",
+              "recommend": "",
+            },
             {
                 "name": "紫丁香",
                 "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2050.jpg?raw=true"
@@ -58,8 +101,7 @@
             {
                 "name": "草莓可麗餅",
                 "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2045.jpg?raw=true"
-            }],
-        "data5": [
+            },
             {
                 "name": "杏仁果",
                 "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2046.jpg?raw=true"
@@ -72,6 +114,7 @@
                 "name": "濃縮咖啡",
                 "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2042.jpg?raw=true"
             }
-        ]
-    }
+        ]}
+
+]
      
