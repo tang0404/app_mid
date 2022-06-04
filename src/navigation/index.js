@@ -292,14 +292,14 @@ const CookiesStack = ({navigation}) => {
               color:colorMode=='light'?"#2E2015":"#f8f8f8"
             },
             headerLeft: () => (
-              <Pressable>
+              <Box mr={3}>
                   <MaterialCommunityIcons 
-                  name={'chevron-left'} 
-                  color={'black'} 
-                  size={30}
+                  name={'arrow-left'} 
+                  color={colorMode=='light'?"#2E2015":"#FFC764"} 
+                  size={24}
                   onPress={ () => {navigation.navigate('CookiesListPage')}}
               />
-              </Pressable>
+              </Box>
           ),
             }}
         />
