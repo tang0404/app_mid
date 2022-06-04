@@ -297,7 +297,7 @@ const CookiesStack = ({navigation}) => {
                   name={'chevron-left'} 
                   color={'black'} 
                   size={30}
-                  onPress={ () => {navigation.goBack();}}
+                  onPress={ () => {navigation.navigate('CookiesListPage')}}
               />
               </Pressable>
           ),

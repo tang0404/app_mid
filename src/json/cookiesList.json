@@ -4,32 +4,41 @@
         "horizontal": true,
         "data": [
            {
-              "name": "純香草",
-              "image": "https://github.com/pinyi0911/AppMid/blob/master/img/btn_cookie.jpg?raw=true",
-              "fileImage": "",
-              "skillName": "愛與和平",
-              "CDtime": 19,
-              "equipment": "",
-              "recommend": ""
+            "name": "純香草",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/btn_cookie.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%A6%99%E8%8D%89%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%A6%99%E8%8D%89%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%A6%99%E8%8D%89%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "愛與和平",
+            "CDtime": 19,
+            "equipment1": "攻擊",
+            "equipment2": "",
+            "recommend": ""
 
            },
            {              
             "name": "海妖精",
             "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Mask%20group.jpg?raw=true",
-            "fileImage": "",
-            "skillName": "",
-            "CDtime": 17,
-            "equipment": "",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%B5%B7%E5%A6%96%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%B5%B7%E5%A6%96%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%B5%B7%E5%A6%96%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "湧動的心",
+            "CDtime": 17, 
+            "equipment1": "攻擊",
+            "equipment2": "",
             "recommend": ""
            },
            {             
             "name": "冰霜女王",
             "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2035.jpg?raw=true",
-            "fileImage": "",
-              "skillName": "",
-              "CDtime": 18,
-              "equipment": "",
-              "recommend": ""
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%86%B0%E9%9C%9C%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%86%B0%E9%9C%9C%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%86%B0%E9%9C%9C%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "冰霜風暴",
+            "CDtime": 18,
+            "equipment1": "攻擊",
+            "equipment2": "",
+            "recommend": ""
            }
         ]},
         {
@@ -37,82 +46,147 @@
         "horizontal": true,
         "data": [
             {
-                "name": "黑糖",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2040.jpg?raw=true",
-                "fileImage": "",
-              "skillName": "",
-              "CDtime": 10,
-              "equipment": "",
-              "recommend": ""
+            "name": "黑糖",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2040.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%BB%91%E7%B3%96%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%BB%91%E7%B3%96%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%BB%91%E7%B3%96%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "果斷神弓",
+            "CDtime": 10,
+            "equipment1": "攻擊",
+            "equipment2": "",
+            "recommend": ""
             },
             {
-                "name": "黑巧克力",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2041.jpg?raw=true",
-                "fileImage": "",
-              "skillName": "",
-              "CDtime":  13,
-              "equipment": "",
-              "recommend": ""
+            "name": "黑巧克力",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2041.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%BB%91%E5%B7%A7%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%BB%91%E5%B7%A7%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%BB%91%E5%B7%A7%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "暗黑劍擊",
+            "CDtime":  13,
+            "equipment1": "傷害抵抗",
+            "equipment2": "",
+            "recommend": ""
             },
             {
-                "name": "閃電泡芙",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2049.jpg?raw=true",
-                "fileImage": "",
-              "skillName": "",
-              "CDtime": 16,
-              "equipment": "",
-              "recommend": ""
+            "name": "閃電泡芙",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2049.jpg?raw=true",
+            "fileImage": "",
+            "skillName": "研究學者的書",
+            "CDtime": 16,
+            "equipment1": "攻擊",
+            "equipment2": "冷卻",
+            "recommend": ""
             },
             {
-                "name": "棉花",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2039.jpg?raw=true","fileImage": "",
-                "skillName": "",
-                "CDtime": 17,
-                "equipment": "",
-                "recommend": ""
+            "name": "棉花",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2039.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%A3%89%E8%8A%B1%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%A3%89%E8%8A%B1%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%A3%89%E8%8A%B1%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "一盞溫暖提燈",
+            "CDtime": 17,
+            "equipment1": "冷卻",
+            "equipment2": "攻擊",
+            "recommend": ""
                 
             },
             {
-                "name": "泡芙",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2048.jpg?raw=true",
-                "fileImage": "",
-              "skillName": "",
-              "CDtime":  16,
-              "equipment": "",
-              "recommend": ""
+            "name": "奶油泡芙",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2048.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%B3%A1%E8%8A%99%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%B3%A1%E8%8A%99%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%B3%A1%E8%8A%99%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "Jellious Extremus!!",
+            "CDtime":  16,
+            "equipment1": "傷害抵抗",
+            "equipment2": "冷卻",
+            "recommend": ""
             },
             {
-                "name": "雪酪鯊魚",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2044.jpg?raw=true",
-                "fileImage": "",
-              "skillName": "",
-              "CDtime": 17,
-              "equipment": "",
-              "recommend": ""
+            "name": "雪酪鯊魚",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2044.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%AF%8A%E9%AF%8A%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%AF%8A%E9%AF%8A%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E9%AF%8A%E9%AF%8A%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "鯊魚潛水",
+            "CDtime": 17,
+            "equipment1": "攻擊",
+            "equipment2": "冷卻",
+            "recommend": ""
             },
             {
-                "name": "紫丁香",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2050.jpg?raw=true"
+            "name": "紫丁香",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2050.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E7%B4%AB%E4%B8%81%E9%A6%99%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E7%B4%AB%E4%B8%81%E9%A6%99%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E7%B4%AB%E4%B8%81%E9%A6%99%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "紫色劍舞",
+            "CDtime": 17,
+            "equipment1": "攻擊",
+            "equipment2": "",
+            "recommend": ""
             },
             {
-                "name": "覆盆莓",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2047.jpg?raw=true"
+            "name": "覆盆莓",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2047.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E8%A6%86%E7%9B%86%E8%8E%93%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E8%A6%86%E7%9B%86%E8%8E%93%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E8%A6%86%E7%9B%86%E8%8E%93%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "覆盆莓劍術",
+            "CDtime": 17,
+            "equipment1": "攻擊",
+            "equipment2": "傷害抵抗",
+            "recommend": ""
             },
             {
-                "name": "草莓可麗餅",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2045.jpg?raw=true"
+            "name": "草莓可麗餅",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2045.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%8F%AF%E9%BA%97%E9%A4%85%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%8F%AF%E9%BA%97%E9%A4%85%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%8F%AF%E9%BA%97%E9%A4%85%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "可麗餅之擊",
+            "CDtime": 15,
+            "equipment1": "冷卻",
+            "equipment2": "傷害抵抗",
+            "recommend": ""
             },
             {
-                "name": "杏仁果",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2046.jpg?raw=true"
+            "name": "杏仁果",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2046.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%9D%8F%E4%BB%81%E6%9E%9C%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%9D%8F%E4%BB%81%E6%9E%9C%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%9D%8F%E4%BB%81%E6%9E%9C%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "魔法杏仁果手銬",
+            "CDtime": 15,
+            "equipment1": "冷卻",
+            "equipment2": "",
+            "recommend": ""
             },
             {
-                "name": "拿鐵",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2043.jpg?raw=true"
+            "name": "拿鐵",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2043.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%8B%BF%E9%90%B5%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%8B%BF%E9%90%B5%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E6%8B%BF%E9%90%B5%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "大杯熱拿鐵",
+            "CDtime": 16,
+            "equipment1": "攻擊",
+            "equipment2": "冷卻",
+            "recommend": ""
             },
             {
-                "name": "濃縮咖啡",
-                "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2042.jpg?raw=true"
+            "name": "濃縮咖啡",
+            "image": "https://github.com/pinyi0911/AppMid/blob/master/img/Group%2042.jpg?raw=true",
+            "fileImage_B": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%92%96%E5%95%A1%E4%BA%AE.png?raw=true",
+            "fileImage_D": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%92%96%E5%95%A1%E6%9A%97.png?raw=true",
+            "skillImage": "https://github.com/pinyi0911/AppMid/blob/master/img/%E5%92%96%E5%95%A1%E6%8A%80%E8%83%BD.png?raw=true",
+            "skillName": "濃縮式研磨",
+            "CDtime": 15,
+            "equipment1": "攻擊",
+            "equipment2": "冷卻",
+            "recommend": ""
             }
         ]}
 

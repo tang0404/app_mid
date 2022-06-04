@@ -15,16 +15,10 @@ const SegmentedContent = () => {
                     <Box 
                         bg={colorMode == "light" ? "#f8f8f8" : "#2E2015"} 
                         flex={1}>
-                        {/* <Text color="#CAC6C4" fontSize={12} 
-                        borderWidth={1} borderColor="#CAC6C4">
-                            {cookiesData.title1}</Text> */}
                         <CookiesList
                             list={cookiesData.data}
                             navigation={navigation}
                         />
-                        {/* <Text color="#CAC6C4" fontSize={12} mt="10" ml="3" mr="3" mb="3" paddingBottom={1.5} 
-                        borderBottomWidth={1} borderBottomColor="#CAC6C4">
-                            {cookiesData.title2}</Text> */}
                     </Box>
                 </Center>
             // </ScrollView>
