@@ -10,7 +10,7 @@ const CookieScreen = ({ route }) => {
     var color;
     const { name, image, fileImage_B, fileImage_D, 
         skillImage, skillName, skillDescription1, skillDescription2, skillDescription3, CDtime, 
-        equipment1, equipment2, recommend, recomName  } = route.params;
+        equipment1, equipment2, recommend, recomName, value  } = route.params;
     const { colorMode } = useColorMode();
     const [selectedIndex, setSelectedIndex] = useState(0);
     const ifEquip =(type) => {
@@ -130,6 +130,7 @@ const CookieScreen = ({ route }) => {
                     <Center mb={10}>
                         <VictoryChart polar 
                             // theme={VictoryTheme.material}
+                            maxDomain={{ y: 50 }}
                             animate={{
                                 duration: 2000,
                                 onLoad: { duration: 1000 }
@@ -144,12 +145,13 @@ const CookieScreen = ({ route }) => {
 
                                     },
                                 }}
+                                
                                 data={[
-                                    {x:"公會",y:50,},
-                                    {x:"蘇打群島",y:25},
-                                    {x:"競技場",y:50},
-                                    {x:"守護之戰",y:50},
-                                    {x:"推圖",y:30}
+                                    {x:"公會",y:value[0]},
+                                    {x:"蘇打群島",y:value[1]},
+                                    {x:"競技場",y:value[2]},
+                                    {x:"守護之戰",y:value[3]},
+                                    {x:"推圖",y:value[4]}
                                 ]}
                                 width={250}
                                 height={250}

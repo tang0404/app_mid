@@ -20,7 +20,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [40,40,50,50,40]
            },
            {              
             "name": "海妖精",
@@ -39,7 +40,8 @@
                 "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                 "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                 "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [50,50,40,50,50]
            },
            {             
             "name": "冰霜女王",
@@ -58,7 +60,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [50,50,40,50,30]
            }
         ]},
         {
@@ -82,7 +85,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [0,10,50,40,30]
             },
             {
             "name": "黑巧克力",
@@ -101,7 +105,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["吸血鬼", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["吸血鬼", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [50,20,20,50,40]
             },
             {
             "name": "閃電泡芙",
@@ -120,7 +125,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E8%A1%80%E9%AC%BC.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "吸血鬼" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "吸血鬼" ,"雪酪鯊魚", "棉花"],
+            "value": [50,30,40,40,50]
             },
             {
             "name": "棉花",
@@ -139,7 +145,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E8%A1%80%E9%AC%BC.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "吸血鬼"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "吸血鬼"],
+            "value": [50,40,50,40,50]
                 
             },
             {
@@ -159,7 +166,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [0,10,30,20,10]
             },
             {
             "name": "雪酪鯊魚",
@@ -178,7 +186,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E8%A1%80%E9%AC%BC.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"吸血鬼", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"吸血鬼", "棉花"],
+            "value": [50,40,40,50,40]
             },
             {
             "name": "紫丁香",
@@ -197,7 +206,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [0,20,30,20,0]
             },
             {
             "name": "覆盆莓",
@@ -216,7 +226,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [0,10,10,30,20]
             },
             {
             "name": "草莓可麗餅",
@@ -235,7 +246,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [20,30,30,30,30]
             },
             {
             "name": "杏仁果",
@@ -254,7 +266,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [0,30,40,30,20]
             },
             {
             "name": "拿鐵",
@@ -273,7 +286,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [10,30,30,40,40]
             },
             {
             "name": "濃縮咖啡",
@@ -292,7 +306,8 @@
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%96%83%E9%9B%BB.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E9%AF%8A%E9%AF%8A.png?raw=true",
                           "https://github.com/pinyi0911/AppMid/blob/master/img/icon_%E6%A3%89%E8%8A%B1.png?raw=true"],
-            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"]
+            "recomName": ["黑巧克力", "閃電泡芙" ,"雪酪鯊魚", "棉花"],
+            "value": [20,30,30,40,40]
             }
         ]}
 
