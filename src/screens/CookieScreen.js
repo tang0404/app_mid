@@ -1,18 +1,34 @@
 
 import React, { useState } from "react";
 import { Image, Box, Center, ScrollView, Text, useColorMode, VStack, HStack, Pressable, Actionsheet, useDisclose } from "native-base";
+import { TouchableOpacity } from "react-native";
 import { ScreenStackHeaderBackButtonImage } from "react-native-screens";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import CookiesListScreen from "./CookiesListScreen";
 import { VictoryPolarAxis,VictoryChart,VictoryArea,VictoryTheme } from 'victory-native';
+import { useSelector, useDispatch } from "react-redux";
+import { likeActions } from "../../redux/likeSlice";
 
 const CookieScreen = ({ route }) => {
     var color;
-    const { name, image, fileImage_B, fileImage_D, 
+    const { like, name, image, fileImage_B, fileImage_D, 
         skillImage, skillName, skillDescription1, skillDescription2, skillDescription3, CDtime, 
         equipment1, equipment2, recommend, recomName, value  } = route.params;
+
     const { colorMode } = useColorMode();
-    const [selectedIndex, setSelectedIndex] = useState(0);
+    const dispatch = useDispatch();
+    
+    const [change, setChange] = useState(true);
+    const changeIcon = () => {
+        setChange(!change);
+    };
+
+    const addToLike = () => {
+        dispatch(likeActions.addToLike({...route.params}));
+    }
+    const removeFromLike = () => {
+        dispatch(likeActions.removeFromLike({...route.params}));
+    }
     const ifEquip =(type) => {
         switch (type) {
             case "傷害抵抗":
@@ -57,6 +73,7 @@ const CookieScreen = ({ route }) => {
     const { isOpen, onOpen, onClose } = useDisclose();
     return(
         <ScrollView style={{flex: 1,backgroundColor:colorMode == "light" ? "#F8F8F8" : "#2E2015"}}>
+
             <Center mt={2} mb={50}>
                 {colorMode == "light" ?
                     (<Image
@@ -72,6 +89,40 @@ const CookieScreen = ({ route }) => {
                         alt="fileImage_D"
                     /> )
                 }
+            <TouchableOpacity mb={5} mt={1} onPress={() => { addToLike() }}>
+                {/* {change ?  */}
+                        <HStack bg="#FFC764" width="315" h="50" alignItems="center" justifyContent="center"
+                        borderColor="#2E2015"
+                        borderRadius={10}>
+                        <MaterialCommunityIcons 
+                        name={'plus-circle'} 
+                        color={colorMode == "light" ? "#2E2015" : "#f8f8f8"} 
+                        size={20}
+                        
+                        />
+                        <Text ml={2} fontSize={15} fontWeight="bold" color={colorMode == "light" ? "#2E2015" : "#f8f8f8"}>我 的 愛 餅</Text>
+                     </HStack>
+                    {/* : */}
+                
+                    
+                    
+                    {/* } */}
+            </TouchableOpacity>
+            
+            <TouchableOpacity mb={5} mt={1} onPress={() => { removeFromLike()}}>
+            <HStack bg="#FFC764" width="315" h="50" alignItems="center" justifyContent="center"
+                    borderColor="#2E2015"
+                    borderRadius={10}>
+                    <MaterialCommunityIcons 
+                    name={'minus-circle'} 
+                    color={colorMode == "light" ? "#2E2015" : "#f8f8f8"} 
+                    size={20}
+                    
+                    />
+                    <Text ml={2} fontSize={15} fontWeight="bold" color={colorMode == "light" ? "#2E2015" : "#f8f8f8"}>移 除 愛 餅</Text>
+                </HStack>
+            </TouchableOpacity>
+
                 <Box width={315} borderRadius={6} bg={colorMode == "light" ? "white" : "#564334"}>
                     <Text color={colorMode == "light" ? "#2E2015" : "#F8F8f8"} fontSize={15} fontWeight="bold" 
                         mt="18" ml="18" mr="3" mb="3" pl={3} borderLeftWidth={4} borderLeftColor="#FFC764">就業能力分析</Text>

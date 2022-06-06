@@ -12,6 +12,7 @@ import SerialNumScreen from '../screens/SerialNumScreen';
 import CookiesListScreen from '../screens/CookiesListScreen';
 import TeamListScreen from '../screens/TeamListScreen';
 import CookieScreen from '../screens/CookieScreen';
+import TestScreen from '../screens/TestScreen';
 
 import {
   createDrawerNavigator,
@@ -159,6 +160,15 @@ const MyDrawer = () => {
           drawerLabel: "餅乾圖鑑",
         }}
       />
+
+      <Drawer.Screen 
+        name="Test" 
+        component={TestStack} 
+        options={{
+          headerShown: false,
+          drawerLabel: "測試",
+        }}
+      />
     
       <Drawer.Screen 
         name="TeamList" 
@@ -248,6 +258,73 @@ const TeamStack = ({navigation}) => {
     </Stack.Navigator>
   );
 }
+
+
+const TestStack = ({navigation}) => {
+  const { colorMode } = useColorMode();
+  return (
+    <Stack.Navigator
+      // screenOptions={{
+      //   headerShown: false
+      // }}
+    >
+      
+    <Stack.Screen
+        name="TestPage"
+        component={TestScreen}
+        options={{
+          title: "測試",
+          headerStyle: {
+            backgroundColor: colorMode=='light'?"#f8f8f8":"#2E2015",
+          },
+          headerTitleStyle: {
+            fontWeight: '700',
+            fontSize: 17,
+            color:colorMode=='light'?"#2E2015":"#f8f8f8"
+          },
+          // headerShadowVisible: false,//去除陰影
+
+          headerLeft: () => (
+            <Box mr="3" >
+            <MaterialCommunityIcons 
+              name="menu" color={colorMode=='light'?"#2E2015":"#FFC764"} size={24} 
+              onPress={()=>navigation.openDrawer()}
+            />
+            </Box>
+          ), // 漢堡選單
+        }}
+    />
+
+        <Stack.Screen
+          name="CookiePage"
+          component={CookieScreen}
+          options={{
+            title: "餅乾個人設定頁",
+            headerStyle: {
+              backgroundColor: colorMode=='light'?"#f8f8f8":"#2E2015",
+            },
+            headerTitleStyle: {
+              fontWeight: '700',
+              fontSize: 17,
+              color:colorMode=='light'?"#2E2015":"#f8f8f8"
+            },
+            headerLeft: () => (
+              <Box mr={3}>
+                  <MaterialCommunityIcons 
+                  name={'arrow-left'} 
+                  color={colorMode=='light'?"#2E2015":"#FFC764"} 
+                  size={24}
+                  onPress={ () => {navigation.navigate('CookiesListPage')}}
+              />
+              </Box>
+          ),
+            }}
+        />
+
+    </Stack.Navigator>
+  );
+}
+
 
 const CookiesStack = ({navigation}) => {
   const { colorMode } = useColorMode();

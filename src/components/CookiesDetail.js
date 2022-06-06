@@ -12,7 +12,7 @@ const { colorMode } = useColorMode();
             mr="18"
         >
           <Pressable
-            onPress={() => navigation.navigate("CookiePage", cookies)}
+            onPress={() => navigation.navigate("CookiePage", cookies)} //到個人頁
           >
             <Image 
             width= "78"
