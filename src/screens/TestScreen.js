@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Image, ColorMode, useColorMode, Center, Pressable, HStack} from "native-base";
-import { FlatList, Text } from "react-native";
+import { Box, Image, Text, ColorMode, useColorMode, Center, Pressable, HStack} from "native-base";
+import { FlatList } from "react-native";
 
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useDispatch, useSelector } from "react-redux";
@@ -18,14 +18,17 @@ const TestScreen = ({navigation}) => {
                     data={likeItems}
                     renderItem={({ item }) => 
                      <Pressable onPress={() => {navigation.navigate('CookiePage', item)}}>
-                        <Box ml={5} alignItems="center">
+                        <Box mt={5} ml={18} mr={18} alignItems="center">
                                 <Image 
                                     width= "78"
                                     height= "78"
                                     source={{uri: item.image}}
                                     alt="cookie"
                                     borderRadius={7} />
-                                <Text>{item.name}</Text>
+                                <Text
+                                color={colorMode == "light" ? "#2E2015" : "#f8f8f8"} 
+                                fontWeight="bold" mt="1.5" mb="1.5"
+                                >{item.name}</Text>
                             </Box>
                         </Pressable>
                         }

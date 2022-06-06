@@ -1,20 +1,27 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { Alert } from "react-native";
 
 const likeSlice = createSlice({
     name:'like',
     initialState:{
         likeList: [],
-        // showLike: false
+    // showLike: false
     },
     reducers: {
         addToLike(state,action) {
             const newItem = action.payload;
+            const existingItem = state.likeList.find((item) => item.id === newItem.id );
+
+            if(existingItem){
+                existingItem.likeTime++;
+                Alert.alert("就業中心","已存在");
+            }else{
                 state.likeList.push({
                     // id: newItem.id,
                     // name: newItem.name,
                     // image: newItem.image
                     id: newItem.id,
-                    // like: true,
+                    likeTime: 1,
                     name: newItem.name,
                     image: newItem.image,
                     fileImage_B: newItem.fileImage_B,
@@ -31,23 +38,24 @@ const likeSlice = createSlice({
                     recomName: newItem.recomName,
                     value: newItem.value
                 })
+                Alert.alert("就業中心","已加入");
+            }
+
+                
+                
         },
         removeFromLike(state,action) {
-            // const id = action.payload;
-            // const existingItem = state.likeList.find(item => item.id === id);
-            // state.likeList.find(item => item.like = false);
-            // existingItem.like = false;
-            // state.likeList = state.likeList.filter(item => item.id === id);
+            Alert.alert("就業中心","已從愛餅中移除")
             return {
                 ... state ,
                 likeList: state.likeList.filter(item => item.id !== action.payload.id)
               }
         },
-        // setShowLike(state) {
-        //     state.showLike = true;
-        // }
+
     }
 });
+
+export const likeTime = (state) => state.like.likeTime;
 
 export const likeActions = likeSlice.actions;
 // export const {removeFromLike} = likeSlice.actions;
