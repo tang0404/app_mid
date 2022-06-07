@@ -5,7 +5,6 @@ const likeSlice = createSlice({
     name:'like',
     initialState:{
         likeList: [],
-    // showLike: false
     },
     reducers: {
         addToLike(state,action) {
@@ -14,12 +13,9 @@ const likeSlice = createSlice({
 
             if(existingItem){
                 existingItem.likeTime++;
-                Alert.alert("就業中心","已存在");
+                Alert.alert("就業中心","已在我的愛餅中");
             }else{
                 state.likeList.push({
-                    // id: newItem.id,
-                    // name: newItem.name,
-                    // image: newItem.image
                     id: newItem.id,
                     likeTime: 1,
                     name: newItem.name,
@@ -38,7 +34,7 @@ const likeSlice = createSlice({
                     recomName: newItem.recomName,
                     value: newItem.value
                 })
-                Alert.alert("就業中心","已加入");
+                Alert.alert("就業中心","已加入愛餅");
             }
 
                 
@@ -58,5 +54,4 @@ const likeSlice = createSlice({
 export const likeTime = (state) => state.like.likeTime;
 
 export const likeActions = likeSlice.actions;
-// export const {removeFromLike} = likeSlice.actions;
 export default likeSlice;

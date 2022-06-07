@@ -1,10 +1,8 @@
 import React from "react";
 import { Box, Image, Text, ColorMode, useColorMode, Center, Pressable, HStack} from "native-base";
 import { FlatList } from "react-native";
-
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useDispatch, useSelector } from "react-redux";
-
 
 const TestScreen = ({navigation}) => {
     const{colorMode} = useColorMode();

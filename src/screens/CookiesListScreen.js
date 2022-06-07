@@ -4,7 +4,6 @@ import { Image, Box, Center, ScrollView, Text, useColorMode } from "native-base"
 import CookiesList from "../components/CookiesList";
 import cookiesData from "../json/cookiesList.json";
 import { useDispatch, useSelector } from "react-redux";
-import { likeActions } from "../../redux/likeSlice";
 import TestScreen from "./TestScreen";
 
 const CookiesListScreen = ({navigation}) => {
@@ -17,18 +16,16 @@ const dispatch = useDispatch();
 const SegmentedContent = () => {
     if(selectedIndex == 0){
         return (
-            // <ScrollView style={{flex: 1,backgroundColor:colorMode == "light" ? "#f8f8f8" : "#2E2015"}}>
-                <Center  mb={30} style={{flex: 1,backgroundColor:colorMode == "light" ? "#f8f8f8" : "#2E2015"}}>
-                    <Box 
-                        bg={colorMode == "light" ? "#f8f8f8" : "#2E2015"} 
-                        flex={1}>
-                        <CookiesList
-                            list={cookiesData.data}
-                            navigation={navigation}
-                        />
-                    </Box>
-                </Center>
-            // </ScrollView>
+            <Center  mb={30} style={{flex: 1,backgroundColor:colorMode == "light" ? "#f8f8f8" : "#2E2015"}}>
+                <Box 
+                    bg={colorMode == "light" ? "#f8f8f8" : "#2E2015"} 
+                    flex={1}>
+                    <CookiesList
+                        list={cookiesData.data}
+                        navigation={navigation}
+                    />
+                </Box>
+            </Center>
         );
     }else{
         return (
@@ -63,6 +60,5 @@ return (
     </Box>
 );
 }
-// }}
 
 export default CookiesListScreen ;

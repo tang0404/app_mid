@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { Image,Pressable,TouchableOpacity } from "react-native";
+import { Image,Pressable,TouchableOpacity, Alert } from "react-native";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -66,7 +66,7 @@ const CustomDrawerContent = (props) => {
       marginLeft:15,
       color:colorMode=='light'?"#2E2015":'#f8f8f8',
       }}
-      onPress={()=>alert('還未開放喔')}
+      onPress={()=>Alert.alert("就業中心","還未開放喔")}
     />
 
     <DrawerItem 
@@ -80,7 +80,7 @@ const CustomDrawerContent = (props) => {
       marginLeft:15,
       color:colorMode=='light'?"#2E2015":'#f8f8f8',
       }}
-      onPress={()=>alert('還未開放喔')}
+      onPress={()=>Alert.alert("就業中心","還未開放喔")}
     />
 
     <DrawerItem 
@@ -94,7 +94,7 @@ const CustomDrawerContent = (props) => {
       marginLeft:15,
       color:colorMode=='light'?"#2E2015":'#f8f8f8',
       }}
-      onPress={()=>alert('還未開放喔')}
+      onPress={()=>Alert.alert("就業中心","還未開放喔")}
     />
 
     <Center>
@@ -161,14 +161,7 @@ const MyDrawer = () => {
         }}
       />
 
-      <Drawer.Screen 
-        name="Test" 
-        component={TestStack} 
-        options={{
-          headerShown: false,
-          drawerLabel: "測試",
-        }}
-      />
+
     
       <Drawer.Screen 
         name="TeamList" 
@@ -299,7 +292,7 @@ const TestStack = ({navigation}) => {
           name="CookiePage"
           component={CookieScreen}
           options={{
-            title: "餅乾個人設定頁",
+            title: "餅乾設定頁",
             headerStyle: {
               backgroundColor: colorMode=='light'?"#f8f8f8":"#2E2015",
             },
@@ -359,7 +352,7 @@ const CookiesStack = ({navigation}) => {
           name="CookiePage"
           component={CookieScreen}
           options={{
-            title: "餅乾個人設定頁",
+            title: "餅乾設定頁",
             headerStyle: {
               backgroundColor: colorMode=='light'?"#f8f8f8":"#2E2015",
             },

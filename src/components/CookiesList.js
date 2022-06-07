@@ -4,7 +4,6 @@ import CookiesDetail from "./CookiesDetail";
 import sections from "../json/cookiesList.json"
 
 const CookiesList = ({ navigation }) => {
-  // const renderItem = ({ item }) => <CookiesDetail cookies={item} navigation={navigation} />
   const renderSectionHeader = ({section}) => (
     <>
     <Text style={styles.title}>{section.title}</Text>

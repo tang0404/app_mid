@@ -1,10 +1,8 @@
 
 import React, { useState } from "react";
-import { Image, Box, Center, ScrollView, Text, useColorMode, VStack, HStack, Pressable, Actionsheet, useDisclose } from "native-base";
-import { TouchableOpacity, Alert } from "react-native";
-import { ScreenStackHeaderBackButtonImage } from "react-native-screens";
+import { Image, Box, Center, ScrollView, Text, useColorMode, VStack, HStack, Pressable, Actionsheet, useDisclose, Alert } from "native-base";
+import { TouchableOpacity } from "react-native";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import CookiesListScreen from "./CookiesListScreen";
 import { VictoryPolarAxis,VictoryChart,VictoryArea,VictoryTheme } from 'victory-native';
 import { useDispatch, useSelector } from "react-redux";
 import { likeActions, likeTime } from "../../redux/likeSlice";
@@ -35,7 +33,7 @@ const CookieScreen = ({ route }) => {
             case "冷卻":
                 return color = colorMode == "light" ? "#9A308F":"#CE64C3";
             case "攻擊":
-                return color = "#CB0203"
+                return color = colorMode == "light" ? "#CB0203":"#E45E5E";
             default:
                 break;
         }
@@ -115,8 +113,6 @@ const CookieScreen = ({ route }) => {
                         </HStack>
                     </TouchableOpacity>
                 </HStack>
-
-                {/* {Count(likeCount)} */}
                 
                 <Box width={315} borderRadius={6} bg={colorMode == "light" ? "white" : "#564334"}>
                     <Text color={colorMode == "light" ? "#2E2015" : "#F8F8f8"} fontSize={15} fontWeight="bold" 
@@ -175,7 +171,6 @@ const CookieScreen = ({ route }) => {
 
                     <Center mb={10}>
                         <VictoryChart polar 
-                            // theme={VictoryTheme.material}
                             maxDomain={{ y: 50 }}
                             animate={{
                                 duration: 2000,
